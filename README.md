@@ -43,6 +43,9 @@ Router sub-interfaces:
 **Router (R1)**
 - Enabled `Gi0/0` with `no shutdown` (no IP on the physical port)
 - One sub-interface per VLAN, each with `encapsulation dot1Q <vlan>` and the VLAN's gateway address
+- ![Router config](router-config.png)
+
+![Switch config](switch-config.png)
 
 Full configs: [`SW1-config.txt`](SW1-config.txt) and [`R1-config.txt`](R1-config.txt)
 
